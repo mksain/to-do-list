@@ -1,6 +1,24 @@
+.col-5
+{
+  height: 600px;
+  margin-bottom: 10px;
+  background-color:  #614d35;
+}
 .header
 {
   background-color: #7b3131;
+}
+.sub-header
+{
+  border-radius: 20px;
+}
+.list-group
+{
+  padding: 0px;
+}
+.list-group-item
+{
+  margin: 5px;
 }
 .form-control
 {
@@ -21,7 +39,7 @@
   border-bottom-left-radius: 18px;
 }
 .input-group>:not(:first-child):not(.dropdown-menu):not(.valid-tooltip):not(.valid-feedback):not(.invalid-tooltip):not(.invalid-feedback) {
-  margin-left: -18px;
+  margin-left: -1px;
   border-top-left-radius: 18px;
   border-bottom-left-radius: 18px;
 }
