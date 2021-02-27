@@ -1,8 +1,14 @@
+
+.main_div
+{
+  background-color: #b7b7b7;
+}
 .col-5
 {
   height: 600px;
   margin-bottom: 10px;
   background-color:  #614d35;
+  margin-top: 20px;
 }
 .header
 {
@@ -18,7 +24,16 @@
 }
 .list-group-item
 {
-  margin: 5px;
+  border: none;
+}
+.list-item
+{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: white;
+  margin: 10px;
+  padding-right: 20px;
 }
 .form-control
 {
