@@ -3,7 +3,7 @@
 {
   background-color: #b7b7b7;
 }
-.col-5
+.col-sm-5
 {
   height: 600px;
   margin-bottom: 10px;
@@ -26,6 +26,10 @@
 {
   border: none;
 }
+.group-item-second
+{
+  background-color: #a79e9e;
+}
 .list-item
 {
   display: flex;
@@ -35,6 +39,16 @@
   margin: 10px;
   padding-right: 20px;
 }
+.list-second
+{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #a79e9e;
+  margin: 10px;
+  padding-right: 20px;
+}
+
 .form-control
 {
   border: 1px solid #af3b3b;
@@ -57,4 +71,8 @@
   margin-left: -1px;
   border-top-left-radius: 18px;
   border-bottom-left-radius: 18px;
+}
+.img-hover:hover
+{
+  cursor: pointer;
 }
